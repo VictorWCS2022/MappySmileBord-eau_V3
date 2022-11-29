@@ -23,7 +23,7 @@ from sqlalchemy import create_engine
 # dialect+driver://username:password@host:port/database
 # =============================================================================
 def creating_connection():
-     sqlEngin = create_engine('mysql+pymysql://Victor:victor123@localhost/projet_3')                       
+     sqlEngin = create_engine('mysql+pymysql://Victor:victor123@127.0.0.1/projet_3')                       
      dbConnection = sqlEngin.connect()
      return dbConnection
 
